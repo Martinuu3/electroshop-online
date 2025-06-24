@@ -1,0 +1,331 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "iPhone 15 Pro",
+      "category": "Smartphones",
+      "price": 4999,
+      "cost": 3500,
+      "stock": 25,
+      "minStock": 5,
+      "description": "Cel mai nou iPhone cu titanium și camera avansată",
+      "brand": "Apple",
+      "model": "15 Pro",
+      "createdAt": "2024-01-15",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "2",
+      "name": "Samsung Galaxy S24 Ultra",
+      "category": "Smartphones",
+      "price": 4799,
+      "cost": 3200,
+      "stock": 118,
+      "minStock": 5,
+      "description": "Flagship Samsung cu S Pen și AI integrat",
+      "brand": "Samsung",
+      "model": "Galaxy S24 Ultra",
+      "createdAt": "2024-01-10",
+      "updatedAt": "2025-06-24"
+    },
+    {
+      "id": "3",
+      "name": "MacBook Pro 14\"",
+      "category": "Laptops",
+      "price": 8999,
+      "cost": 6500,
+      "stock": 2,
+      "minStock": 3,
+      "description": "MacBook Pro cu chip M3 Pro și display Liquid Retina XDR",
+      "brand": "Apple",
+      "model": "MacBook Pro 14\"",
+      "createdAt": "2024-01-08",
+      "updatedAt": "2025-06-23"
+    },
+    {
+      "id": "4",
+      "name": "Dell XPS 13",
+      "category": "Laptops",
+      "price": 6299,
+      "cost": 4500,
+      "stock": 1,
+      "minStock": 3,
+      "description": "Ultrabook premium cu procesor Intel Core i7",
+      "brand": "Dell",
+      "model": "XPS 13",
+      "createdAt": "2024-01-12",
+      "updatedAt": "2025-06-23"
+    },
+    {
+      "id": "5",
+      "name": "iPad Pro 12.9\"",
+      "category": "Tablets",
+      "price": 4599,
+      "cost": 3200,
+      "stock": 15,
+      "minStock": 5,
+      "description": "iPad Pro cu chip M2 și display Liquid Retina XDR",
+      "brand": "Apple",
+      "model": "iPad Pro 12.9\"",
+      "createdAt": "2024-01-18",
+      "updatedAt": "2024-01-18"
+    },
+    {
+      "id": "6",
+      "name": "Sony WH-1000XM5",
+      "category": "Audio",
+      "price": 1299,
+      "cost": 800,
+      "stock": 35,
+      "minStock": 10,
+      "description": "Căști wireless cu noise cancelling premium",
+      "brand": "Sony",
+      "model": "WH-1000XM5",
+      "createdAt": "2024-01-20",
+      "updatedAt": "2024-01-20"
+    },
+    {
+      "id": "7",
+      "name": "Samsung 55\" OLED TV",
+      "category": "TV & Audio",
+      "price": 7499,
+      "cost": 5200,
+      "stock": 26,
+      "minStock": 2,
+      "description": "Televizor OLED 4K cu HDR și Smart TV",
+      "brand": "Samsung",
+      "model": "QN55S95C",
+      "createdAt": "2024-01-05",
+      "updatedAt": "2025-06-23"
+    },
+    {
+      "id": "8",
+      "name": "Nintendo Switch OLED",
+      "category": "Gaming",
+      "price": 1699,
+      "cost": 1200,
+      "stock": 22,
+      "minStock": 8,
+      "description": "Consolă de jocuri portabilă cu display OLED",
+      "brand": "Nintendo",
+      "model": "Switch OLED",
+      "createdAt": "2024-01-25",
+      "updatedAt": "2024-01-25"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-001",
+      "customerName": "Ion Popescu",
+      "customerEmail": "ion.popescu@email.com",
+      "customerPhone": "0721234567",
+      "items": [
+        {
+          "productId": "1",
+          "productName": "iPhone 15 Pro",
+          "quantity": 1,
+          "price": 4999,
+          "total": 4999
+        },
+        {
+          "productId": "6",
+          "productName": "Sony WH-1000XM5",
+          "quantity": 1,
+          "price": 1299,
+          "total": 1299
+        }
+      ],
+      "total": 6298,
+      "status": "completed",
+      "createdAt": "2024-01-28",
+      "updatedAt": "2024-01-28"
+    },
+    {
+      "id": "ORD-002",
+      "customerName": "Maria Ionescu",
+      "customerEmail": "maria.ionescu@email.com",
+      "customerPhone": "0731234567",
+      "items": [
+        {
+          "productId": "3",
+          "productName": "MacBook Pro 14\"",
+          "quantity": 1,
+          "price": 8999,
+          "total": 8999
+        }
+      ],
+      "total": 8999,
+      "status": "completed",
+      "createdAt": "2024-01-29",
+      "updatedAt": "2025-06-23"
+    },
+    {
+      "id": "ORD-003",
+      "customerName": "Andrei Georgescu",
+      "customerEmail": "andrei.georgescu@email.com",
+      "customerPhone": "0741234567",
+      "items": [
+        {
+          "productId": "8",
+          "productName": "Nintendo Switch OLED",
+          "quantity": 2,
+          "price": 1699,
+          "total": 3398
+        }
+      ],
+      "total": 3398,
+      "status": "completed",
+      "createdAt": "2024-01-30",
+      "updatedAt": "2024-01-30"
+    },
+    {
+      "id": "ORD-004",
+      "customerName": "Daniel Martin",
+      "customerEmail": "martindanielwow@gmail.com",
+      "customerPhone": "0770974052",
+      "items": [
+        {
+          "productId": "7",
+          "productName": "Samsung 55\" OLED TV",
+          "quantity": 55,
+          "price": 7499,
+          "total": 412445
+        }
+      ],
+      "total": 412445,
+      "status": "completed",
+      "createdAt": "2025-06-23",
+      "updatedAt": "2025-06-23"
+    },
+    {
+      "id": "ORD-005",
+      "customerName": "Filip Luca Martin",
+      "customerEmail": "martinfilip366@gmail.com",
+      "customerPhone": "0749359277",
+      "items": [
+        {
+          "productId": "4",
+          "productName": "Dell XPS 13",
+          "quantity": 7,
+          "price": 6299,
+          "total": 44093
+        }
+      ],
+      "total": 44093,
+      "status": "completed",
+      "createdAt": "2025-06-23",
+      "updatedAt": "2025-06-24"
+    },
+    {
+      "id": "ORD-006",
+      "customerName": "Daniel Martin",
+      "customerEmail": "martindanielwow@gmail.com",
+      "customerPhone": "0770974052",
+      "items": [
+        {
+          "productId": "3",
+          "productName": "MacBook Pro 14\"",
+          "quantity": 10,
+          "price": 8999,
+          "total": 89990
+        }
+      ],
+      "total": 89990,
+      "status": "processing",
+      "createdAt": "2025-06-23",
+      "updatedAt": "2025-06-24"
+    }
+  ],
+  "stockMovements": [
+    {
+      "id": "STK-001",
+      "productId": "1",
+      "productName": "iPhone 15 Pro",
+      "type": "out",
+      "quantity": 1,
+      "reason": "Vânzare - Comanda ORD-001",
+      "date": "2024-01-28"
+    },
+    {
+      "id": "STK-002",
+      "productId": "6",
+      "productName": "Sony WH-1000XM5",
+      "type": "out",
+      "quantity": 1,
+      "reason": "Vânzare - Comanda ORD-001",
+      "date": "2024-01-28"
+    },
+    {
+      "id": "STK-003",
+      "productId": "8",
+      "productName": "Nintendo Switch OLED",
+      "type": "out",
+      "quantity": 2,
+      "reason": "Vânzare - Comanda ORD-003",
+      "date": "2024-01-30"
+    },
+    {
+      "id": "STK-004",
+      "productId": "1",
+      "productName": "iPhone 15 Pro",
+      "type": "in",
+      "quantity": 10,
+      "reason": "Reaprovizionare stoc",
+      "date": "2024-01-31"
+    },
+    {
+      "id": "STK-1750695188888",
+      "productId": "7",
+      "productName": "Samsung 55\" OLED TV",
+      "type": "in",
+      "quantity": 50,
+      "reason": "Reaprovizionare",
+      "date": "2025-06-23"
+    },
+    {
+      "id": "STK-1750695758864",
+      "productId": "7",
+      "productName": "Samsung 55\" OLED TV",
+      "type": "out",
+      "quantity": 55,
+      "reason": "Vânzare - Comanda ORD-004",
+      "date": "2025-06-23"
+    },
+    {
+      "id": "STK-1750695825734",
+      "productId": "7",
+      "productName": "Samsung 55\" OLED TV",
+      "type": "in",
+      "quantity": 25,
+      "reason": "Reaprovizionare",
+      "date": "2025-06-23"
+    },
+    {
+      "id": "STK-1750696593586",
+      "productId": "4",
+      "productName": "Dell XPS 13",
+      "type": "out",
+      "quantity": 7,
+      "reason": "Vânzare - Comanda ORD-005",
+      "date": "2025-06-23"
+    },
+    {
+      "id": "STK-1750696614434",
+      "productId": "3",
+      "productName": "MacBook Pro 14\"",
+      "type": "out",
+      "quantity": 10,
+      "reason": "Vânzare - Comanda ORD-006",
+      "date": "2025-06-23"
+    },
+    {
+      "productId": "2",
+      "productName": "Samsung Galaxy S24 Ultra",
+      "type": "in",
+      "quantity": 100,
+      "reason": "Reaprovizionare",
+      "date": "2025-06-24",
+      "id": "STK-1750786989952"
+    }
+  ]
+}
